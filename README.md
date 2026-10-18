@@ -40,6 +40,8 @@ skills/
 ├── README.md                    # this file
 ├── _template/                   # copy this to start a new skill
 │   └── SKILL.md
+├── resources/                  # reading lists that inform skills (not skills)
+│   └── git-and-agent-best-practices.md
 │
 ├── workflow/                    # how I work, whatever the domain
 │   ├── project-bootstrap/       # scaffold a new project/repo in my standard layout
@@ -156,7 +158,7 @@ project, then add more as I notice repeated corrections.
 | **analysis-workflow** | My default path from a vague question to a defensible answer: clarify the decision, state hypotheses, check the data, analyse, write up. Applies to Uber and to e-commerce metrics alike. |
 | **sql-style** | Formatting and CTE conventions, plus mandatory sanity checks (row counts, duplicates on join keys, null rates, date-range coverage). Catches the most common silent errors. |
 | **analysis-writeup** | Executive summary first, then method, results, caveats and next steps. Makes every result shareable. |
-| **git-conventions** | Branch naming, commit message format, PR template. Small, but used constantly. |
+| **git-conventions** | Branch naming, commit message format, PR template. Small, but used constantly. See [Git + AI agent best practices](resources/git-and-agent-best-practices.md) for sources to borrow from. |
 
 ### Phase 3: depth (add when the need shows up)
 
@@ -188,6 +190,16 @@ This is the layout that `project-bootstrap` would create:
 │   └── settings.json       # project permissions / hooks
 └── src/ | notebooks/ | sql/
 ```
+
+---
+
+## Resources
+
+Reading lists that inform the skills here (no `SKILL.md`, so they are not installed):
+
+- [Git + AI agent best practices](resources/git-and-agent-best-practices.md): Git courses and
+  cheat sheets, commit conventions, official Claude Code best-practice guides, and popular
+  community Agent Skills for Git workflows.
 
 ---
 
