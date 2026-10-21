@@ -41,7 +41,8 @@ skills/
 ├── _template/                   # copy this to start a new skill
 │   └── SKILL.md
 ├── resources/                  # reading lists that inform skills (not skills)
-│   └── git-and-agent-best-practices.md
+│   ├── git-and-agent-best-practices.md
+│   └── orchestrator-subagent-best-practices.md
 │
 ├── workflow/                    # how I work, whatever the domain
 │   ├── project-bootstrap/       # scaffold a new project/repo in my standard layout
@@ -200,6 +201,10 @@ Reading lists that inform the skills here (no `SKILL.md`, so they are not instal
 - [Git + AI agent best practices](resources/git-and-agent-best-practices.md): Git courses and
   cheat sheets, commit conventions, official Claude Code best-practice guides, and popular
   community Agent Skills for Git workflows.
+- [Orchestrator + subagent best practices](resources/orchestrator-subagent-best-practices.md):
+  how to split work between a lead agent and focused subagents (when to fan out, writing
+  delegation briefs, designing subagents, subagents vs agent teams vs worktrees), plus official
+  guides, the multi-agent debate, and GitHub skills and frameworks to borrow from.
 
 ---
 
