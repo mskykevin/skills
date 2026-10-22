@@ -43,6 +43,8 @@ skills/
 ├── resources/                  # reading lists that inform skills (not skills)
 │   ├── git-and-agent-best-practices.md
 │   └── orchestrator-subagent-best-practices.md
+├── work-style/                  # personal notes on how I work (not skills)
+│   └── analysis.md
 │
 ├── workflow/                    # how I work, whatever the domain
 │   ├── project-bootstrap/       # scaffold a new project/repo in my standard layout
@@ -205,6 +207,13 @@ Reading lists that inform the skills here (no `SKILL.md`, so they are not instal
   how to split work between a lead agent and focused subagents (when to fan out, writing
   delegation briefs, designing subagents, subagents vs agent teams vs worktrees), plus official
   guides, the multi-agent debate, and GitHub skills and frameworks to borrow from.
+
+## Work style
+
+Personal notes summarising how I work, kept for future reference (no `SKILL.md`, so they are not
+installed). Settled rules from here can graduate into skills:
+
+- [Analysis](work-style/analysis.md): how I frame, run, validate and communicate an analysis.
 
 ---
 
