@@ -53,7 +53,7 @@ Last updated: _YYYY-MM-DD_
 <!-- My write-up structure (e.g. executive summary first), charts I like, how I state caveats
      and confidence, and how I tailor the message to different audiences. -->
 
--
+- Always include the data source (query, sheet, raw data) for future reference.
 
 ## 7. Tools and setup
 

@@ -66,6 +66,13 @@ skills/
 │   ├── notebook-hygiene/        # notebook layout, when to promote code to modules
 │   └── ml-model-lifecycle/      # baseline first, eval plan, model card, monitoring
 │
+├── analytics/                   # playbooks for common analytics questions
+│   ├── README.md                # which skill for which question + shared rules
+│   ├── trend-analysis/          # how is X trending? real vs seasonal vs noise, drivers, outlook
+│   ├── metric-investigation/    # why did X drop/spike? data checks, slicing, root cause
+│   ├── measuring-success/       # metric tree, primary/guardrail metrics, targets, impact
+│   └── report-structure/        # quick answer, analysis report, recurring report templates
+│
 ├── communication/               # writing for humans
 │   ├── analysis-writeup/        # executive-summary-first doc template
 │   ├── stakeholder-update/      # short status update format
@@ -162,6 +169,10 @@ project, then add more as I notice repeated corrections.
 | **sql-style** | Formatting and CTE conventions, plus mandatory sanity checks (row counts, duplicates on join keys, null rates, date-range coverage). Catches the most common silent errors. |
 | **analysis-writeup** | Executive summary first, then method, results, caveats and next steps. Makes every result shareable. |
 | **git-conventions** | Branch naming, commit message format, PR template. Small, but used constantly. See [Git + AI agent best practices](resources/git-and-agent-best-practices.md) for sources to borrow from. |
+
+Already written: the [analytics](analytics/README.md) playbooks (`trend-analysis`,
+`metric-investigation`, `measuring-success`, `report-structure`) cover the most common
+analytics questions and the shape of the write-up.
 
 ### Phase 3: depth (add when the need shows up)
 
